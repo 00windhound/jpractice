@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 public class Main{
@@ -17,9 +19,9 @@ frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 frame.setResizable(false);
 frame.setSize(450, 450);
 
-
-
-
+ImageIcon icon =new ImageIcon("doodle.png")
+frame.setIconImage(icon.getImage());
+frame.getContentPane().setBackground(new color(0x123456));
 
 }
 }
