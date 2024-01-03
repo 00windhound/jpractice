@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.util.Scanner;
 
 import javax.swing.ImageIcon;
@@ -17,11 +18,11 @@ frame.setTitle("jpractice");
 frame.setVisible(true);
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 frame.setResizable(false);
-frame.setSize(450, 450);
+frame.setSize(1000, 1000);
 
-ImageIcon icon =new ImageIcon("doodle.png")
+ImageIcon icon =new ImageIcon("doodle.png");
 frame.setIconImage(icon.getImage());
-frame.getContentPane().setBackground(new color(0x123456));
+frame.getContentPane().setBackground(new Color(0x123456));
 
 }
 }
